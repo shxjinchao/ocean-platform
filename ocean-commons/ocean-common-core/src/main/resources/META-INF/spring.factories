@@ -1,0 +1,6 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.ocean.common.config.BannerInitializer
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.ocean.common.feign.fallback.UserServiceFallbackFactory,\
+com.ocean.common.lock.LockAspect

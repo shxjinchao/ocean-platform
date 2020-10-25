@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>ocean-platform</artifactId>
+        <groupId>com.ocean</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>ocean-commons</artifactId>
+    <description>通用组件</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>ocean-redis-spring-boot-starter</module>
+        <module>ocean-common-spring-boot-starter</module>
+        <module>ocean-db-spring-boot-starter</module>
+        <module>ocean-swagger2-spring-boot-starter</module>
+        <module>ocean-log-spring-boot-starter</module>
+        <module>ocean-ribbon-spring-boot-starter</module>
+        <module>ocean-auth-client-spring-boot-starter</module>
+        <module>ocean-sentinel-spring-boot-starter</module>
+        <module>ocean-common-core</module>
+        <module>ocean-elasticsearch-spring-boot-starter</module>
+        <module>ocean-redis-spring-boot-starter</module>
+        <module>ocean-common-core</module>
+        <module>ocean-log-spring-boot-starter</module>
+        <module>ocean-auth-client-spring-boot-starter</module>
+        <module>ocean-common-spring-boot-starter</module>
+        <module>ocean-db-spring-boot-starter</module>
+        <module>ocean-elasticsearch-spring-boot-starter</module>
+        <module>ocean-ribbon-spring-boot-starter</module>
+        <module>ocean-sentinel-spring-boot-starter</module>
+        <module>ocean-swagger2-spring-boot-starter</module>
+    </modules>
+</project>
